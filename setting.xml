@@ -120,12 +120,12 @@
     </mirror>
      -->
  
-    <mirror>
-        <id>jd</id>
-        <mirrorOf>*</mirrorOf>
-        <name>JD Maven Mirror</name>
-        <url>http://mirrors.jd.com/maven/</url>
-    </mirror>
+  <mirror>
+    <id>nexus-163</id>
+    <mirrorOf>*</mirrorOf>
+    <name>Nexus 163</name>
+    <url>http://mirrors.163.com/maven/repository/maven-public/</url>
+</mirror>
 
           <!--
 <mirror>
@@ -143,7 +143,7 @@
           -->
   </mirrors>
 
-          <plugin>
+<plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
   <configuration>
