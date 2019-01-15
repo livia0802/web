@@ -120,14 +120,13 @@
     </mirror>
      -->
  
- <mirrors>
     <mirror>
         <id>jd</id>
         <mirrorOf>*</mirrorOf>
         <name>JD Maven Mirror</name>
         <url>http://mirrors.jd.com/maven/</url>
     </mirror>
-</mirrors>
+
           <!--
 <mirror>
       <id>Nexus osc</id>
