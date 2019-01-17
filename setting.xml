@@ -112,22 +112,22 @@
       <name>Human Readable Name for this Mirror.</name>
       <url>http://my.repository.com/repo/path</url>
     </mirror>
+
+         <mirror>
+      <id>alimaven</id>
+      <mirrorOf>central</mirrorOf>
+      <name>aliyun maven</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    </mirror>    
+     -->
+ 
   <mirror>
     <id>nexus-163</id>
     <mirrorOf>*</mirrorOf>
     <name>Nexus 163</name>
     <url>http://mirrors.163.com/maven/repository/maven-public/</url>
 </mirror>
-          
-     -->
- 
 
-   <mirror>
-      <id>alimaven</id>
-      <mirrorOf>central</mirrorOf>
-      <name>aliyun maven</name>
-      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-    </mirror>
 
           <!--
 <mirror>
